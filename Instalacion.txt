@@ -1,0 +1,21 @@
+INSTALACION
+=============================
+Requisitos:
+
+- Servidor web (Apache Server).
+- PHP.
+- Extensión de PHP mbstring
+- MySQL.
+
+
+Nota: Se puede ejecutar en paquetes binarios como XAMPP, WampServer, Mamp Server, LAMP, hosting, etc.
+
+1.- Intslar XAMPP
+2.- Instalación y configuración
+
+	1. Descomprimir el archivo westronics.rar
+	2. Copiar la carpeta "westronics" a la carpeta htdocs de XAMPP (por ejemplo).
+	3. Crear una base de datos en MySQL con cotejamiento utf8_spanish_ci, en este caso se llamara tienda_online la base de datos.
+	4. Importamos el archivo "tienda_online.sql" a la base de datos creada.
+	5. Verificamos en el archivo conf que nnuestro usuario este consida con la concexion.
+
